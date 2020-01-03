@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Try rails gem : https://github.com/aasm/aasm
 
 Things you may want to cover:
 
 * Ruby version
+  * 2.6.0
 
-* System dependencies
+* Rails version
+  * 6.0.2.1
 
-* Configuration
+* Gems
+  * gem 'aasm'
+  * gem 'pry-rails', :group => :development
+  * gem 'bullet', group: 'development'
 
-* Database creation
+* Changes
+  * https://github.com/charlietag/test_rails_aasm/compare/v0.0.0...master
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
