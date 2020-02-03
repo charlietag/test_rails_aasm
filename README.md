@@ -15,7 +15,7 @@ Things you may want to cover:
   * gem 'pry-rails', :group => :development
   * gem 'bullet', group: 'development'
 
-* Gem AASM generator
+* Gem AASM generator (finite-state machine)
 
   ```bash
   $ bin/rails g aasm Book
