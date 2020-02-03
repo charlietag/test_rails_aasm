@@ -21,6 +21,19 @@
     <%= form.text_field :author %>
   </div>
 
+  <div class="field">
+    <%= form.label :aasm_state %>
+
+    <% #book.aasm.events(permitted: true).map(&:name).each do |event| %>
+      <% #link_to event, book, method: :patch, class: "btn btn-default" %>
+    <% #end %>
+    <%# book.aasm.events(permitted: true).each do |event| %>
+      <%# link_to event.name, book, method: :patch, class: "btn btn-default" %>
+    <%# end %>
+
+    <%# form.select(:aasm_state, book.aasm.events(permitted: true).map(&:name)) %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
