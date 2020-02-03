@@ -15,7 +15,7 @@ Things you may want to cover:
   * gem 'pry-rails', :group => :development
   * gem 'bullet', group: 'development'
 
-* Other features built-in is used
+* Other used built-in features
   * SJR
   * yarn add jquery
   * test_rails_aasm/app/javascript/packs/application.js
@@ -24,6 +24,8 @@ Things you may want to cover:
     import "jquery/src/jquery"
     ...
     ```
+
+  * bin/rails g scaffold Book name:string author:string
 
 * Changes
   * https://github.com/charlietag/test_rails_aasm/compare/v0.0.0...master
