@@ -15,6 +15,19 @@ Things you may want to cover:
   * gem 'pry-rails', :group => :development
   * gem 'bullet', group: 'development'
 
+* Gem AASM generator
+
+  ```bash
+  $ bin/rails g aasm Book
+
+  $ cat 20200124010943_add_aasm_state_to_books.rb
+  class AddAasmStateToBooks < ActiveRecord::Migration[6.0]
+    def change
+      add_column :books, :aasm_state, :string
+    end
+  end
+  ```
+
 * Other used built-in features
   * SJR
   * yarn add jquery
